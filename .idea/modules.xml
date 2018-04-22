@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DIGIFUS.iml" filepath="$PROJECT_DIR$/DIGIFUS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DigiFus.iml" filepath="$PROJECT_DIR$/DigiFus.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
