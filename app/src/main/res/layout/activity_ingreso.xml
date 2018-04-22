@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="rodriguez87.astridg.digifus.ingreso">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="Astrid Giselly Rodriguez Romero "
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:text="Gerson David Zambrano Barco"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:text="Giovanni Camilo Sanchez Romero"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/textView3"
+        android:backgroundTint="@android:color/transparent"
+        android:elevation="@android:dimen/dialog_min_width_major"
+        android:onClick="oncreditos"
+        android:text="Créditos" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/logo_sanmateo" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="18dp"
+        android:layout_marginStart="15dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:elevation="@android:dimen/dialog_min_width_major"
+        android:onClick="onturno"
+        android:text="Turno Digital" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignEnd="@+id/button"
+        android:layout_marginEnd="22dp"
+        android:onClick="oncerrar"
+        android:src="@drawable/cerrar" />
+
+</RelativeLayout>

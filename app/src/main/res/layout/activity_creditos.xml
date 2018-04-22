@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="rodriguez87.astridg.digifus.creditos">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="76dp"
+        android:layout_marginTop="12dp"
+        android:text="Referencia de Imagenes"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="17dp"
+        android:text=" LOGO SAN MATEO «GOOGLE IMAGENES» [En línea]. Available: http://foredamsas.com/convenio-universidad-san-mateo
+        [Último acceso: Abril 2018]"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="16dp"
+        android:text=" CAJA REGISTRADORA «GOOGLE IMAGENES» [En línea]. Available: http://www.qualitycolombia.com/home/productos/pos-productos
+        [Último acceso: Abril 2018]"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="20dp"
+        android:text=" ATENCION ESTUDIANTE «GOOGLE IMAGENES» [En línea]. Available: .....
+        [Último acceso: Abril 2018]"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="20dp"
+        android:text=" RELOJ ARENA «GOOGLE IMAGENES» [En línea]. Available: https://www.iconfinder.com/icons/52412/arena_reloj_icon
+        [Último acceso: Abril 2018]"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="16dp"
+        android:text=" ALERTA «GOOGLE IMAGENES» [En línea]. Available: https://pixabay.com/tr/%C3%BCnlem-i%C5%9Fareti-mark-uyar%C4%B1-sembol-28996/
+        [Último acceso: Abril 2018]"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView5"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:elevation="@android:dimen/dialog_min_width_major"
+        android:onClick="onClick"
+        android:text="retornar" />
+
+
+</RelativeLayout>
